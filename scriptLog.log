@@ -1,0 +1,36 @@
+: SCRIPT START
+: Trying to ping remote server
+3 packets transmitted, 3 received, 0% packet loss, time 8178ms
+: Server is awailable
+: Server check job successfuly done. Continue executing programm
+: Start creating backup of current directory
+: Dump created successfully
+: Start deleting old backups
+: Removing files: backup_2025-02-23_19.tar
+: Dump deleting job successfuly done. Continue executing programm
+: SCRIPT END SUCCESSFUL!
+: SCRIPT START
+: Trying to ping remote server
+2025-02-23_21-21-46: SCRIPT START
+2025-02-23_21-21-46: Trying to ping remote server
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+2025-02-23_21-21-48: Server is awailable
+2025-02-23_21-21-48: Server check job successfuly done. Continue executing programm
+2025-02-23_21-21-48: Start creating backup of current directory
+2025-02-23_21-21-52: Owerwryting existing dump
+2025-02-23_21-21-52: Dump created successfully
+2025-02-23_21-21-52: Start deleting old backups
+2025-02-23_21-21-52: Nothing to remove
+2025-02-23_21-21-52: Dump deleting job successfuly done. Continue executing programm
+2025-02-23_21-21-52: SCRIPT END SUCCESSFUL!
+2025-02-23_21-22-41: SCRIPT START
+2025-02-23_21-22-41: Trying to ping remote server
+3 packets transmitted, 3 received, 0% packet loss, time 2197ms
+2025-02-23_21-22-43: Server is awailable
+2025-02-23_21-22-43: Server check job successfuly done. Continue executing programm
+2025-02-23_21-22-43: Start creating backup of current directory
+2025-02-23_21-22-43: Dump created successfully
+2025-02-23_21-22-43: Start deleting old backups
+2025-02-23_21-22-43: Removing files: backup_2025-02-23_212.tar
+2025-02-23_21-22-43: Dump deleting job successfuly done. Continue executing programm
+2025-02-23_21-22-43: SCRIPT END SUCCESSFUL!
