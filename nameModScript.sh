@@ -30,7 +30,7 @@ FilesNameModify() {
 		if [ "$WORKING_TYPE" = "postfix" ]; then
 			for file in $WORKING_DIR/*
                 	do
-                        	mv "$file $WORKING_DIR/$(echo $file | awk -F "\/" '{print $NF}')$1"
+                        	mv $file "$WORKING_DIR/$(echo $file | awk -F "\/" '{print $NF}')$1"
                         	#echo "$file $WORKING_DIR/$(echo $file | awk -F "\/" '{print $NF}')$1"
                 	done
                 	exit 0
