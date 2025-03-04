@@ -1,0 +1,109 @@
+###############################REPORT_START###############################
+
+
+RAM utilization:
+               total        used        free      shared  buff/cache   available
+Mem:           7,8Gi       1,9Gi       3,9Gi        54Mi       2,3Gi       5,9Gi
+Swap:          2,0Gi          0B       2,0Gi
+
+
+Disk space utilization:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           795M  1,3M  793M   1% /run
+/dev/sda3        24G   11G   13G  45% /
+tmpfs           3,9G   17M  3,9G   1% /dev/shm
+tmpfs           5,0M  8,0K  5,0M   1% /run/lock
+/dev/sda2       512M  6,2M  506M   2% /boot/efi
+tmpfs           795M  208K  794M   1% /run/user/1000
+
+
+Hardware information:
+H/W path          Device      Class       Description
+=====================================================
+                              system      VirtualBox
+/0                            bus         VirtualBox
+/0/0                          memory      128KiB BIOS
+/0/1                          memory      8GiB System memory
+/0/2                          processor   12th Gen Intel(R) Core(TM) i5-12500H
+/0/100                        bridge      440FX - 82441FX PMC [Natoma]
+/0/100/1                      bridge      82371SB PIIX3 ISA [Natoma/Triton II]
+/0/100/1/0                    input       PnP device PNP0303
+/0/100/1/1                    input       PnP device PNP0f03
+/0/100/1.1        scsi1       storage     82371AB/EB/MB PIIX4 IDE
+/0/100/1.1/0.0.0  /dev/cdrom  disk        CD-ROM
+/0/100/2          /dev/fb0    display     SVGA II Adapter
+/0/100/3          enp0s3      network     82540EM Gigabit Ethernet Controller
+/0/100/4          input7      input       VirtualBox mouse integration
+/0/100/5          card0       multimedia  82801AA AC'97 Audio Controller
+/0/100/6                      bus         KeyLargo/Intrepid USB
+/0/100/6/1        usb1        bus         OHCI PCI host controller
+/0/100/6/1/1      input6      input       VirtualBox USB Tablet
+/0/100/7                      bridge      82371AB/EB/MB PIIX4 ACPI
+/0/100/b                      bus         82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller
+/0/100/b/1        usb2        bus         EHCI Host Controller
+/0/100/d          scsi2       storage     82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode]
+/0/100/d/0.0.0    /dev/sda    disk        26GB VBOX HARDDISK
+/0/100/d/0.0.0/1  /dev/sda1   volume      1023KiB BIOS Boot partition
+/0/100/d/0.0.0/2              volume      512MiB Windows FAT volume
+/0/100/d/0.0.0/3  /dev/sda3   volume      24GiB EXT4 volume
+/1                input0      input       Power Button
+/2                input1      input       Sleep Button
+/3                input2      input       AT Translated Set 2 keyboard
+/4                input4      input       Video Bus
+/5                input5      input       ImExPS/2 Generic Explorer Mouse
+
+
+CPU information:
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            GenuineIntel
+Model name:                           12th Gen Intel(R) Core(TM) i5-12500H
+CPU family:                           6
+Model:                                154
+Thread(s) per core:                   1
+Core(s) per socket:                   8
+Socket(s):                            1
+Stepping:                             3
+BogoMIPS:                             6220,80
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 avx2 bmi2 invpcid rdseed clflushopt arat md_clear flush_l1d arch_capabilities
+Hypervisor vendor:                    KVM
+Virtualization type:                  full
+L1d cache:                            256 KiB (8 instances)
+L1i cache:                            512 KiB (8 instances)
+L2 cache:                             16 MiB (8 instances)
+L3 cache:                             144 MiB (8 instances)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-7
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Vulnerable: No microcode
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Vulnerable
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+
+Block devices:
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda      8:0    0   25G  0 disk 
+├─sda1   8:1    0    1M  0 part 
+├─sda2   8:2    0  513M  0 part /boot/efi
+└─sda3   8:3    0 24,5G  0 part /
+sr0     11:0    1 1024M  0 rom  
+
+
+System version:
+Linux version 6.8.0-38-generic (buildd@lcy02-amd64-049) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.2.0-23ubuntu4) 13.2.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Jun  7 15:25:01 UTC 2024
+
+###############################REPORT_END###############################
